@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/loginscrn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Scrap Collector Registration "
+        android:textAlignment="center"
+        android:textColor="#9A9A9A"
+        android:textSize="25dp"
+
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:hint="Enter your Full Name*"
+        android:textColorHighlight="@color/black"/>
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:hint="Enter your Email ID*"
+        android:textColorHighlight="@color/black"/>
+
+    <EditText
+        android:id="@+id/txtPhnNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:hint="Enter your Phone Number*"
+        android:textColorHighlight="@color/black"/>
+    <EditText
+        android:id="@+id/txtShopName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:hint="Enter your Shop Name*"
+        android:textColorHighlight="@color/black"/>
+    <EditText
+        android:id="@+id/txtShopAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:hint="Enter your Shop Address*"
+        android:textColorHighlight="@color/black"/>
+
+    <EditText
+        android:id="@+id/txtPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:ems="15"
+        android:textColorHighlight="@color/black"
+        android:hint="Enter Password*"/>
+
+    <EditText
+        android:id="@+id/txtcnfPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:ems="15"
+        android:textColorHighlight="@color/black"
+        android:hint="Confirm Password*"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        />
+    <TextView android:id="@+id/lnkLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Already Registered? Login Here"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/purple_500"/>
+</LinearLayout>
+</ScrollView>

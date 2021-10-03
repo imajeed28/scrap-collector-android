@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "613190646548",
+    "project_id": "escarp-collector-app",
+    "storage_bucket": "escarp-collector-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613190646548:android:dce53b9fd8b48914272001",
+        "android_client_info": {
+          "package_name": "com.example.scrapcollector_v1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613190646548-7esl912bs0nnfo0vgh821d6gbd7ic91k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6pj0Naqb8jbZgR9gr4qRkShnfylag30E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613190646548-7esl912bs0nnfo0vgh821d6gbd7ic91k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
